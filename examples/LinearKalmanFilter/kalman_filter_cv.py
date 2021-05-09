@@ -2,11 +2,11 @@ import numpy as np
 from libs.kalman_filter_linear import KalmanFilter
 from libs.commons.utilities import VerboseLevels
 from libs.commons.plotter import Plotter
+
 """
 Example source : 
 https://github.com/balzer82/Kalman/blob/master/Kalman-Filter-CV.ipynb?create=1
 """
-
 
 ############ Create Kalman Filter Parameters ############
 P = np.diag([1000.0, 1000.0, 1000.0, 1000.0])
